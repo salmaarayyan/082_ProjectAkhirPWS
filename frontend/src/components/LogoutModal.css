@@ -1,0 +1,107 @@
+.logout-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.logout-modal {
+    background: var(--color-white);
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logout-modal-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--color-light);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-size: 2rem;
+    color: var(--color-accent);
+}
+
+.logout-modal h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-dark);
+    margin-bottom: 0.5rem;
+}
+
+.logout-modal p {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+}
+
+.logout-modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logout-modal .btn-cancel {
+    padding: 0.75rem 1.5rem;
+    background: var(--color-white);
+    border: 2px solid var(--color-light);
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.logout-modal .btn-cancel:hover {
+    border-color: var(--color-muted);
+    background: var(--color-light);
+}
+
+.logout-modal .btn-confirm {
+    padding: 0.75rem 1.5rem;
+    background: var(--color-accent);
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--color-dark);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.logout-modal .btn-confirm:hover {
+    background: #d4a574;
+    transform: scale(1.02);
+}
