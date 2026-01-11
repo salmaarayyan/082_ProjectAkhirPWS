@@ -33,31 +33,59 @@ A full-stack web application for managing your personal movie watchlist. Built w
 ## 📸 Screenshots
 
 ### Public Pages
-| Public Movies | Login User | Register |
-|:---:|:---:|:---:|
-| ![Public Movies](documentation/screenshots/movieppublic.jpeg) | ![Login User](documentation/screenshots/loginuser.jpeg) | ![Register](documentation/screenshots/register.jpeg) |
+
+**Public Movies**
+![Public Movies](documentation/screenshots/movieppublic.jpeg)
+
+**Login User**
+![Login User](documentation/screenshots/loginuser.jpeg)
+
+**Register**
+![Register](documentation/screenshots/register.jpeg)
+
+---
 
 ### User Pages
-| Dashboard | Browse Movies | Watchlist |
-|:---:|:---:|:---:|
-| ![Dashboard](documentation/screenshots/dashboarduser.jpeg) | ![Browse](documentation/screenshots/browseuser.jpeg) | ![Watchlist](documentation/screenshots/watchlistuser.jpeg) |
 
-| Profile | Logout |
-|:---:|:---:|
-| ![Profile](documentation/screenshots/profileuser.jpeg) | ![Logout](documentation/screenshots/logout.jpeg) |
+**Dashboard**
+![Dashboard](documentation/screenshots/dashboarduser.jpeg)
+
+**Browse Movies**
+![Browse](documentation/screenshots/browseuser.jpeg)
+
+**Watchlist**
+![Watchlist](documentation/screenshots/watchlistuser.jpeg)
+
+**Profile**
+![Profile](documentation/screenshots/profileuser.jpeg)
+
+**Logout**
+![Logout](documentation/screenshots/logout.jpeg)
+
+---
 
 ### Admin Pages
-| Dashboard | User Management | Popular Movies |
-|:---:|:---:|:---:|
-| ![Dashboard](documentation/screenshots/dashboardadmin.jpeg) | ![Users](documentation/screenshots/useradmin.jpeg) | ![Popular](documentation/screenshots/popularadmin.jpeg) |
 
-| Admin Profile | Admin Login | Register |
-|:---:|:---:|:---:|
-| ![Profile](documentation/screenshots/profiladmin.jpeg) | ![Login](documentation/screenshots/loginadmin.jpeg) | ![Register](documentation/screenshots/register.jpeg) |
+**Dashboard**
+![Dashboard](documentation/screenshots/dashboardadmin.jpeg)
 
-| Logout |
-|:---:|
-| ![Logout](documentation/screenshots/logout.jpeg) |
+**User Management**
+![Users](documentation/screenshots/useradmin.jpeg)
+
+**Popular Movies**
+![Popular](documentation/screenshots/popularadmin.jpeg)
+
+**Admin Profile**
+![Profile](documentation/screenshots/profiladmin.jpeg)
+
+**Admin Login**
+![Login](documentation/screenshots/loginadmin.jpeg)
+
+**Register**
+![Register](documentation/screenshots/register.jpeg)
+
+**Logout**
+![Logout](documentation/screenshots/logout.jpeg) |
 
 ---
 
