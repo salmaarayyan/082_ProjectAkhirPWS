@@ -1,0 +1,145 @@
+.movie-card {
+    background: var(--color-white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.movie-poster {
+    position: relative;
+    aspect-ratio: 2/3;
+    overflow: hidden;
+}
+
+.movie-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(58, 56, 69, 0.2) 0%, rgba(58, 56, 69, 0.85) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 1rem;
+}
+
+.movie-card:hover .movie-overlay {
+    opacity: 1;
+}
+
+.movie-overlay button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn-add {
+    background: var(--color-accent);
+    color: var(--color-dark);
+}
+
+.btn-add:hover {
+    background: var(--color-light);
+}
+
+.btn-remove {
+    background: var(--color-muted);
+    color: var(--color-white);
+}
+
+.btn-remove:hover {
+    opacity: 0.9;
+}
+
+.btn-detail {
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-detail:hover {
+    background: var(--color-white);
+}
+
+.btn-watched {
+    background: #10b981;
+    color: var(--color-white);
+}
+
+.btn-watched:hover {
+    background: #059669;
+}
+
+.btn-unwatched {
+    background: var(--color-light);
+    color: var(--color-dark);
+}
+
+.movie-info {
+    padding: 1rem;
+    background: var(--color-bg);
+}
+
+.movie-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-dark);
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--color-muted);
+    font-weight: 600;
+}
+
+.movie-rating {
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+.movie-status {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.status-watchlist {
+    background: var(--color-light);
+    color: var(--color-dark);
+}
+
+.status-watched {
+    background: #d1fae5;
+    color: #065f46;
+}
