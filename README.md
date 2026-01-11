@@ -85,7 +85,7 @@ A full-stack web application for managing your personal movie watchlist. Built w
 ![Register](documentation/screenshots/register.jpeg)
 
 **Logout**
-![Logout](documentation/screenshots/logout.jpeg) |
+![Logout](documentation/screenshots/logout.jpeg)
 
 ---
 
